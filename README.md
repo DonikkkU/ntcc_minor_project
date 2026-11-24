@@ -77,7 +77,3 @@ all outputs, so it can also be read on GitHub without running it.
 - With `RETRAIN = True` it trains all models from scratch (several hours).
 
 Building the features needs about 14 GB of RAM; the data is loaded one partition at a time.
-
-## Use of AI tools
-
-An AI assistant (Claude, Anthropic) was used in this project, as disclosed in Section 3.10 of the report.
