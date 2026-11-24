@@ -1,0 +1,16 @@
+numpy==1.26.4
+pandas==2.2.2
+pyarrow
+scipy==1.13.0
+scikit-learn==1.4.2
+lightgbm
+catboost
+shap
+matplotlib
+streamlit
+plotly
+joblib
+jupyter
+seaborn
+tqdm
+ipywidgets

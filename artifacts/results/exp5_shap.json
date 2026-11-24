@@ -1,0 +1,151 @@
+{
+  "base_value": -3.802950837774734,
+  "base_pd": 0.021818204709762045,
+  "local": {
+    "low": {
+      "id": 2697888,
+      "pd": 0.005306665279181181,
+      "default": 0
+    },
+    "high": {
+      "id": 2940917,
+      "pd": 0.21946284146059328,
+      "default": 0
+    }
+  },
+  "families": {
+    "Utilisation and amounts": 0.312578649749245,
+    "Terms, dates and history length": 0.21542868690515743,
+    "Payment history": 0.2043231947252813,
+    "Credit cost, type and status": 0.17691460833867842,
+    "Overdue counts and flags": 0.0907548602816379
+  },
+  "by_type": {
+    "agg": 0.17155969240852423,
+    "cnt": 0.6342473919243433,
+    "last": 0.08171609674192214,
+    "pay": 0.11247681892521037
+  },
+  "top20": [
+    {
+      "feature": "cnt__pre_util_3",
+      "mean_abs_shap": 0.16262113493407354,
+      "description": "# products with utilisation (bin) = 3",
+      "share": 0.037813496615647105
+    },
+    {
+      "feature": "cnt__pre_till_pclose_10",
+      "mean_abs_shap": 0.1302063672303131,
+      "description": "# products with days to planned close (bin) = 10",
+      "share": 0.030276249323897254
+    },
+    {
+      "feature": "cnt__pre_util_6",
+      "mean_abs_shap": 0.11202925642722339,
+      "description": "# products with utilisation (bin) = 6",
+      "share": 0.026049614710176708
+    },
+    {
+      "feature": "cnt__enc_loans_credit_type_0",
+      "mean_abs_shap": 0.1030803950882271,
+      "description": "# products with credit type = 0",
+      "share": 0.023968779779998575
+    },
+    {
+      "feature": "cnt__pre_loans_credit_cost_rate_11",
+      "mean_abs_shap": 0.08120165680623055,
+      "description": "# products with full cost of credit (bin) = 11",
+      "share": 0.018881423844890284
+    },
+    {
+      "feature": "last__enc_loans_credit_type",
+      "mean_abs_shap": 0.06675048773185183,
+      "description": "Latest product: credit type",
+      "share": 0.015521164226067098
+    },
+    {
+      "feature": "cnt__pre_loans_credit_cost_rate_9",
+      "mean_abs_shap": 0.06340327249840512,
+      "description": "# products with full cost of credit (bin) = 9",
+      "share": 0.014742852649573115
+    },
+    {
+      "feature": "agg__is_zero_util_share",
+      "mean_abs_shap": 0.06247528909527701,
+      "description": "Share of products: zero utilisation",
+      "share": 0.014527073210524268
+    },
+    {
+      "feature": "pay__s1_last12_share",
+      "mean_abs_shap": 0.06068632300436216,
+      "description": "Share of late (status 1) payments, last 12 months",
+      "share": 0.01411109368085403
+    },
+    {
+      "feature": "cnt__pre_util_18",
+      "mean_abs_shap": 0.06009411791332689,
+      "description": "# products with utilisation (bin) = 18",
+      "share": 0.013973391129370119
+    },
+    {
+      "feature": "cnt__pre_loans_credit_limit_2",
+      "mean_abs_shap": 0.0587005503685136,
+      "description": "# products with credit limit (bin) = 2",
+      "share": 0.013649351688489107
+    },
+    {
+      "feature": "cnt__pre_loans_credit_cost_rate_7",
+      "mean_abs_shap": 0.05847367409640713,
+      "description": "# products with full cost of credit (bin) = 7",
+      "share": 0.013596597259300387
+    },
+    {
+      "feature": "last__pre_loans_outstanding",
+      "mean_abs_shap": 0.057430728778705836,
+      "description": "Latest product: outstanding amount (bin)",
+      "share": 0.013354086288895521
+    },
+    {
+      "feature": "agg__is_zero_loans530_share",
+      "mean_abs_shap": 0.056120317695963116,
+      "description": "Share of products: no overdues 5-30 days",
+      "share": 0.013049382813160424
+    },
+    {
+      "feature": "cnt__enc_paym_23_0",
+      "mean_abs_shap": 0.05355541706728963,
+      "description": "# products with payment status, month -23 = 0",
+      "share": 0.012452979022957297
+    },
+    {
+      "feature": "agg__is_zero_loans3060_share",
+      "mean_abs_shap": 0.05310064029757391,
+      "description": "Share of products: no overdues 30-60 days",
+      "share": 0.0123472320064364
+    },
+    {
+      "feature": "agg__pre_loans_credit_cost_rate_max",
+      "mean_abs_shap": 0.04985052247529222,
+      "description": "Max full cost of credit (bin)",
+      "share": 0.01159149801575231
+    },
+    {
+      "feature": "cnt__pre_loans_outstanding_1",
+      "mean_abs_shap": 0.04722036050075153,
+      "description": "# products with outstanding amount (bin) = 1",
+      "share": 0.010979919324192833
+    },
+    {
+      "feature": "agg__pre_loans_credit_limit_max",
+      "mean_abs_shap": 0.044599672069133456,
+      "description": "Max credit limit (bin)",
+      "share": 0.010370543469204307
+    },
+    {
+      "feature": "cnt__pre_till_fclose_4",
+      "mean_abs_shap": 0.04397942117396089,
+      "description": "# products with days to actual close (bin) = 4",
+      "share": 0.010226319564144439
+    }
+  ]
+}
