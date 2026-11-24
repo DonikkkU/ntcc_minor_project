@@ -1,0 +1,201 @@
+feature,mean_abs_shap,description,share
+cnt__pre_util_3,0.16262113493407354,# products with utilisation (bin) = 3,0.037813496615647105
+cnt__pre_till_pclose_10,0.1302063672303131,# products with days to planned close (bin) = 10,0.030276249323897254
+cnt__pre_util_6,0.11202925642722339,# products with utilisation (bin) = 6,0.026049614710176708
+cnt__enc_loans_credit_type_0,0.1030803950882271,# products with credit type = 0,0.023968779779998575
+cnt__pre_loans_credit_cost_rate_11,0.08120165680623055,# products with full cost of credit (bin) = 11,0.018881423844890284
+last__enc_loans_credit_type,0.06675048773185183,Latest product: credit type,0.015521164226067098
+cnt__pre_loans_credit_cost_rate_9,0.06340327249840512,# products with full cost of credit (bin) = 9,0.014742852649573115
+agg__is_zero_util_share,0.06247528909527701,Share of products: zero utilisation,0.014527073210524268
+pay__s1_last12_share,0.06068632300436216,"Share of late (status 1) payments, last 12 months",0.01411109368085403
+cnt__pre_util_18,0.06009411791332689,# products with utilisation (bin) = 18,0.013973391129370119
+cnt__pre_loans_credit_limit_2,0.0587005503685136,# products with credit limit (bin) = 2,0.013649351688489107
+cnt__pre_loans_credit_cost_rate_7,0.05847367409640713,# products with full cost of credit (bin) = 7,0.013596597259300387
+last__pre_loans_outstanding,0.057430728778705836,Latest product: outstanding amount (bin),0.013354086288895521
+agg__is_zero_loans530_share,0.056120317695963116,Share of products: no overdues 5-30 days,0.013049382813160424
+cnt__enc_paym_23_0,0.05355541706728963,"# products with payment status, month -23 = 0",0.012452979022957297
+agg__is_zero_loans3060_share,0.05310064029757391,Share of products: no overdues 30-60 days,0.0123472320064364
+agg__pre_loans_credit_cost_rate_max,0.04985052247529222,Max full cost of credit (bin),0.01159149801575231
+cnt__pre_loans_outstanding_1,0.04722036050075153,# products with outstanding amount (bin) = 1,0.010979919324192833
+agg__pre_loans_credit_limit_max,0.044599672069133456,Max credit limit (bin),0.010370543469204307
+cnt__pre_till_fclose_4,0.04397942117396089,# products with days to actual close (bin) = 4,0.010226319564144439
+last__enc_paym_1,0.04375161862238934,"Latest product: payment status, month -1",0.010173349751725045
+pay__s1_last3_share,0.04309842367912975,"Share of late (status 1) payments, last 3 months",0.010021465528396278
+cnt__enc_loans_credit_type_3,0.04179084980004829,# products with credit type = 3,0.009717421773742864
+last__is_zero_loans530,0.04146834106238184,Latest product: no overdues 5-30 days,0.009642430395376142
+cnt__pre_since_opened_12,0.04136351076546892,# products with days since opening (bin) = 12,0.00961805471948911
+cnt__enc_loans_credit_type_5,0.038332493069563225,# products with credit type = 5,0.008913267008884578
+cnt__enc_loans_credit_type_2,0.03701206447670931,# products with credit type = 2,0.008606234210550422
+cnt__pre_since_opened_8,0.03688365805132813,# products with days since opening (bin) = 8,0.008576376492895535
+cnt__pre_loans_credit_cost_rate_6,0.036437584959228234,# products with full cost of credit (bin) = 6,0.008472653299933632
+cnt__pre_loans_outstanding_5,0.0360702352774123,# products with outstanding amount (bin) = 5,0.008387235276281681
+agg__is_zero_over2limit_share,0.03604925869381037,Share of products: zero overdue / limit,0.008382357693959057
+cnt__pre_loans_credit_limit_18,0.0356779052574469,# products with credit limit (bin) = 18,0.008296008696857102
+pay__s1_last25,0.035320963672549874,"# late (status 1) payments, last 25 months",0.008213010817043023
+pay__s1_last25_share,0.03428381191138293,"Share of late (status 1) payments, last 25 months",0.007971846993984613
+cnt__pre_loans_credit_limit_0,0.03389286163665748,# products with credit limit (bin) = 0,0.007880941239968013
+cnt__pre_till_fclose_8,0.03333082932218619,# products with days to actual close (bin) = 8,0.007750254616548738
+cnt__pre_loans_next_pay_summ_5,0.03309931983120698,# products with next payment amount (bin) = 5,0.0076964228476511624
+cnt__pre_util_4,0.03134856855022769,# products with utilisation (bin) = 4,0.007289329220706618
+agg__is_zero_loans90_share,0.031071369050667208,Share of products: no overdues 90+ days,0.007224873377726929
+cnt__is_zero_loans530_0,0.030527836820313826,# products with no overdues 5-30 days = 0,0.007098488488325593
+cnt__pre_pterm_6,0.029885115354944765,# products with planned term (bin) = 6,0.006949039611552046
+cnt__pre_till_pclose_14,0.02987520206928209,# products with days to planned close (bin) = 14,0.0069467345237539104
+cnt__pre_pterm_0,0.02986187895766033,# products with planned term (bin) = 0,0.006943636565813673
+agg__pre_loans_max_overdue_sum_mean,0.029004060360169562,Mean max overdue amount (bin),0.006744172205623306
+cnt__pre_since_opened_7,0.02897598625509529,# products with days since opening (bin) = 7,0.006737644271368982
+cnt__pre_loans_credit_limit_13,0.028010636530947146,# products with credit limit (bin) = 13,0.006513176224569345
+pay__s3_last25_share,0.027719049913679107,"Share of no data / closed (status 3) payments, last 25 months",0.0064453750155216835
+pay__s1_last6_share,0.027335421738362096,"Share of late (status 1) payments, last 6 months",0.0063561718334451504
+cnt__enc_loans_credit_type_1,0.02731267324463036,# products with credit type = 1,0.006350882237532019
+cnt__pre_loans_credit_limit_5,0.027211481039078337,# products with credit limit (bin) = 5,0.00632735250922381
+agg__is_zero_loans5_share,0.027055231893568128,Share of products: no overdues <5 days,0.006291020660123488
+cnt__enc_paym_21_0,0.02679270763025695,"# products with payment status, month -21 = 0",0.006229977178006192
+last__enc_paym_2,0.0267874173426823,"Latest product: payment status, month -2",0.006228747053327865
+cnt__pre_loans_credit_cost_rate_4,0.026340863609416003,# products with full cost of credit (bin) = 4,0.0061249120992278635
+cnt__is_zero_loans3060_0,0.02596815023639057,# products with no overdues 30-60 days = 0,0.006038246882709622
+cnt__pre_loans_credit_limit_15,0.025071297408906932,# products with credit limit (bin) = 15,0.005829706084057993
+agg__pre_since_opened_max,0.024234861943002322,Max days since opening (bin),0.005635213838803319
+agg__is_zero_loans6090_share,0.023841306659977763,Share of products: no overdues 60-90 days,0.005543702354956203
+cnt__pre_loans_credit_limit_4,0.02374648694809698,# products with credit limit (bin) = 4,0.005521654391413493
+cnt__pre_loans_credit_limit_11,0.023681243254636594,# products with credit limit (bin) = 11,0.005506483594684908
+cnt__enc_loans_credit_type_4,0.02344234358462372,# products with credit type = 4,0.005450933423625203
+last__enc_paym_0,0.023175393473571643,"Latest product: payment status, month -0",0.005388860820793434
+cnt__pre_loans_outstanding_4,0.023061351506741205,# products with outstanding amount (bin) = 4,0.005362343200383684
+cnt__enc_loans_credit_status_3,0.0220505695161417,# products with credit status = 3,0.005127311011017977
+cnt__enc_paym_16_0,0.021864060148147315,"# products with payment status, month -16 = 0",0.005083942900481168
+cnt__pre_till_fclose_0,0.021850562001526012,# products with days to actual close (bin) = 0,0.005080804242509134
+cnt__enc_paym_18_0,0.021805550040562033,"# products with payment status, month -18 = 0",0.00507033783152101
+pay__s1_last12,0.021683558303477023,"# late (status 1) payments, last 12 months",0.005041971689941252
+agg__pre_loans_outstanding_max,0.021542405122294907,Max outstanding amount (bin),0.0050091500315443795
+cnt__pre_pterm_4,0.021506222305309172,# products with planned term (bin) = 4,0.005000736618194453
+cnt__enc_paym_12_0,0.021478857294196997,"# products with payment status, month -12 = 0",0.00499437356608873
+cnt__pre_util_8,0.021140255457129904,# products with utilisation (bin) = 8,0.004915640138080254
+cnt__pre_since_opened_13,0.02112910086093842,# products with days since opening (bin) = 13,0.004913046414420002
+pay__months_since_late,0.021082506502801693,Months since latest late payment (99 = never),0.004902212056361772
+pay__s0_last12,0.02043514835100281,"# on time payments, last 12 months",0.00475168503358529
+cnt__pre_util_16,0.020410372055771932,# products with utilisation (bin) = 16,0.004745923922913908
+cnt__pre_loans_max_overdue_sum_1,0.02021369321835254,# products with max overdue amount (bin) = 1,0.004700191155422508
+cnt__enc_paym_0_1,0.019801745953570236,"# products with payment status, month -0 = 1",0.004604403074070193
+agg__pre_fterm_mean,0.01961937727748145,Mean actual term (bin),0.004561997778357069
+pay__s2_last25_share,0.019458740121977187,"Share of late (status 2) payments, last 25 months",0.004524645606768362
+last__pre_util,0.01930818590064346,Latest product: utilisation (bin),0.004489637970515042
+last__pre_since_opened,0.01906444032333266,Latest product: days since opening (bin),0.004432961004347899
+cnt__pre_pterm_2,0.019002649124603487,# products with planned term (bin) = 2,0.00441859299932217
+cnt__pre_loans_credit_cost_rate_0,0.018600282500584892,# products with full cost of credit (bin) = 0,0.004325032657477646
+cnt__is_zero_loans6090_0,0.01859569234987953,# products with no overdues 60-90 days = 0,0.004323965332198967
+last__is_zero_loans5,0.01850638734987422,Latest product: no overdues <5 days,0.0043031996776188896
+cnt__pre_loans_next_pay_summ_0,0.01798582887946047,# products with next payment amount (bin) = 0,0.004182156764179522
+agg__pre_loans_outstanding_mean,0.017983032438612098,Mean outstanding amount (bin),0.004181506521475223
+pay__s0_last6_share,0.017876889229311625,"Share of on time payments, last 6 months",0.004156825560496292
+cnt__pre_till_pclose_12,0.017554066475077734,# products with days to planned close (bin) = 12,0.004081761165393983
+agg__pre_loans530_mean,0.017419612778830994,Mean overdues 5-30 days (bin),0.004050497305440918
+cnt__pre_fterm_6,0.01730279369759642,# products with actual term (bin) = 6,0.004023333936210361
+cnt__pre_since_confirmed_6,0.016529646629684595,# products with days since info confirmed (bin) = 6,0.0038435578323986804
+pay__s0_last25,0.016450530892286947,"# on time payments, last 25 months",0.0038251614371850864
+cnt__enc_paym_0_3,0.015644002163589486,"# products with payment status, month -0 = 3",0.003637623259165438
+cnt__pre_loans_credit_limit_14,0.015621880569044512,# products with credit limit (bin) = 14,0.0036324794330520717
+cnt__is_zero_util_0,0.015497516081905317,# products with zero utilisation = 0,0.003603561567514784
+cnt__enc_paym_17_0,0.014845063212297182,"# products with payment status, month -17 = 0",0.003451849894940378
+cnt__enc_paym_19_0,0.01466054227120239,"# products with payment status, month -19 = 0",0.003408944143578893
+agg__pre_loans_credit_cost_rate_mean,0.014608336925327004,Mean full cost of credit (bin),0.0033968050900027515
+cnt__pre_loans_credit_cost_rate_2,0.014597782855318263,# products with full cost of credit (bin) = 2,0.0033943510037567136
+cnt__pre_loans_next_pay_summ_3,0.01451184398095393,# products with next payment amount (bin) = 3,0.0033743680578976424
+pay__s0_last3_share,0.014229183858649807,"Share of on time payments, last 3 months",0.003308642483036427
+agg__pre_loans_next_pay_summ_mean,0.014167961547048719,Mean next payment amount (bin),0.0032944067585503794
+cnt__pre_since_opened_19,0.014141503501651163,# products with days since opening (bin) = 19,0.0032882545987434593
+agg__pre_since_opened_mean,0.013724156952337477,Mean days since opening (bin),0.0031912110481839163
+last__pre_loans_credit_limit,0.013616676222471685,Latest product: credit limit (bin),0.0031662190800939437
+agg__pclose_flag_share,0.013260009608170663,Share of products: planned close undefined,0.003083285137846809
+agg__pre_since_confirmed_mean,0.01318992548566259,Mean days since info confirmed (bin),0.003066988819841502
+cnt__pre_since_opened_10,0.013186596054495686,# products with days since opening (bin) = 10,0.0030662146435069633
+agg__pre_pterm_mean,0.013155136552294956,Mean planned term (bin),0.0030588995194274302
+cnt__pre_fterm_3,0.013011655543603059,# products with actual term (bin) = 3,0.003025536582692422
+pay__s0_last25_share,0.01292924906556325,"Share of on time payments, last 25 months",0.0030063750076626517
+cnt__pre_loans_credit_limit_17,0.012909717992194163,# products with credit limit (bin) = 17,0.003001833542759942
+pay__s0_last12_share,0.01269814110815746,"Share of on time payments, last 12 months",0.0029526366054017416
+cnt__enc_paym_11_1,0.012405227365879413,"# products with payment status, month -11 = 1",0.002884526806470639
+agg__pre_loans5_mean,0.012273046777881899,Mean overdues <5 days (bin),0.002853791501253857
+cnt__is_zero_loans530_1,0.012239000434180108,# products with no overdues 5-30 days = 1,0.0028458748715804462
+agg__pre_loans_credit_limit_mean,0.011962402762889955,Mean credit limit (bin),0.0027815589687830255
+cnt__enc_paym_5_0,0.011902038756396097,"# products with payment status, month -5 = 0",0.002767522821782897
+pay__s3_last12,0.011814769397800556,"# no data / closed (status 3) payments, last 12 months",0.0027472305049371193
+cnt__is_zero_loans3060_1,0.011617017835725874,# products with no overdues 30-60 days = 1,0.0027012483020316894
+agg__fclose_flag_share,0.01106859266949358,Share of products: actual close undefined,0.002573725682197142
+cnt__pre_since_opened_9,0.010980330536139128,# products with days since opening (bin) = 9,0.0025532025202954526
+cnt__is_zero_loans90_0,0.01049738824402962,# products with no overdues 90+ days = 0,0.0024409063126983343
+cnt__pre_pterm_7,0.010148920224100591,# products with planned term (bin) = 7,0.0023598787494754515
+pay__s3_last3,0.010067800825918446,"# no data / closed (status 3) payments, last 3 months",0.002341016452825835
+cnt__fclose_flag_0,0.009981065817035305,# products with actual close undefined = 0,0.0023208483857034994
+agg__pre_since_confirmed_max,0.009963000479537352,Max days since info confirmed (bin),0.002316647741189388
+agg__pre_till_pclose_mean,0.009867346514517017,Mean days to planned close (bin),0.002294405792847089
+agg__pre_till_fclose_mean,0.00978765759071204,Mean days to actual close (bin),0.0022758761174034537
+cnt__enc_paym_8_0,0.009766571349176493,"# products with payment status, month -8 = 0",0.0022709730368582074
+last__pre_loans_next_pay_summ,0.009643548617679935,Latest product: next payment amount (bin),0.002242367163193762
+pay__s3_last3_share,0.009513431027547294,"Share of no data / closed (status 3) payments, last 3 months",0.0022121115567738992
+agg__pre_util_mean,0.009479323620541694,Mean utilisation (bin),0.0022041807283493062
+pay__s0_last6,0.009154016478603456,"# on time payments, last 6 months",0.0021285386507330466
+cnt__pre_pterm_3,0.00913690478770722,# products with planned term (bin) = 3,0.0021245597529959527
+pay__s3_last12_share,0.008942903027531488,"Share of no data / closed (status 3) payments, last 12 months",0.0020794494731740305
+cnt__pre_util_17,0.008781265735476747,# products with utilisation (bin) = 17,0.00204186474472805
+pay__s0_last3,0.008773415560807752,"# on time payments, last 3 months",0.0020400393820321212
+agg__is_zero_maxover2limit_share,0.008740851955417479,Share of products: zero max overdue / limit,0.002032467526241559
+cnt__pre_loans_outstanding_3,0.008725146184655022,# products with outstanding amount (bin) = 3,0.002028815540232403
+cnt__pre_since_confirmed_9,0.008690386611954249,# products with days since info confirmed (bin) = 9,0.0020207330669105013
+cnt__pre_till_pclose_1,0.008652803866315832,# products with days to planned close (bin) = 1,0.0020119941350024125
+agg__pre_maxover2limit_mean,0.00864529527498754,Mean max overdue / limit (bin),0.002010248199008941
+cnt__enc_loans_credit_status_5,0.00859503100563385,# products with credit status = 5,0.0019985604944564896
+cnt__pre_till_fclose_2,0.008566155376745035,# products with days to actual close (bin) = 2,0.001991846185792339
+cnt__pre_loans_next_pay_summ_1,0.008489305237746407,# products with next payment amount (bin) = 1,0.0019739765990863137
+pay__s3_last25,0.00830548771342798,"# no data / closed (status 3) payments, last 25 months",0.0019312344097852164
+agg__pre_util_max,0.00807709415499664,Max utilisation (bin),0.0018781271734331871
+cnt__pre_since_opened_5,0.00804085778047468,# products with days since opening (bin) = 5,0.0018697013066114794
+agg__pre_over2limit_mean,0.008011062002758385,Mean overdue / limit (bin),0.0018627730402438116
+cnt__pre_loans_next_pay_summ_2,0.007804130228449182,# products with next payment amount (bin) = 2,0.0018146562075167306
+cnt__enc_paym_22_0,0.0077544241461557,"# products with payment status, month -22 = 0",0.0018030982954695442
+pay__s3_last6_share,0.007680032375008061,"Share of no data / closed (status 3) payments, last 6 months",0.0017858003410083135
+agg__pre_till_pclose_max,0.007675521072616077,Max days to planned close (bin),0.0017847513499420502
+agg__pre_pterm_max,0.00752295657215202,Max planned term (bin),0.0017492762733211408
+cnt__pre_till_fclose_11,0.0074174418201335005,# products with days to actual close (bin) = 11,0.0017247414444382246
+cnt__enc_paym_20_1,0.0074036885689279675,"# products with payment status, month -20 = 1",0.0017215434682457365
+cnt__pre_loans_max_overdue_sum_2,0.007277118538100284,# products with max overdue amount (bin) = 2,0.0016921127584288039
+cnt__pre_pterm_14,0.007211072942042267,# products with planned term (bin) = 14,0.001676755499213815
+cnt__enc_loans_credit_status_2,0.007190899153448759,# products with credit status = 2,0.001672064586885509
+cnt__enc_paym_13_0,0.006774817208949629,"# products with payment status, month -13 = 0",0.0015753150886943417
+cnt__pre_pterm_16,0.006748277408405365,# products with planned term (bin) = 16,0.0015691439187632786
+cnt__enc_paym_7_0,0.0067365725936645755,"# products with payment status, month -7 = 0",0.001566422255476603
+last__pre_maxover2limit,0.006545918863051172,Latest product: max overdue / limit (bin),0.0015220904765830842
+cnt__pre_till_pclose_13,0.006478298485783846,# products with days to planned close (bin) = 13,0.0015063670412006943
+agg__pre_loans_next_pay_summ_max,0.0064618673532792345,Max next payment amount (bin),0.001502546390375657
+cnt__enc_paym_14_0,0.006443309800570779,"# products with payment status, month -14 = 0",0.0014982312934676177
+cnt__pre_since_confirmed_4,0.006255227973251479,# products with days since info confirmed (bin) = 4,0.0014544975466598224
+agg__pre_till_fclose_max,0.00617619205424625,Max days to actual close (bin),0.0014361197112263753
+pay__s2_last6_share,0.006117216317278117,"Share of late (status 2) payments, last 6 months",0.0014224063717446784
+agg__pre_fterm_max,0.006026783863117833,Max actual term (bin),0.0014013785557678632
+cnt__enc_paym_2_0,0.005817170069307834,"# products with payment status, month -2 = 0",0.0013526380861724403
+cnt__pre_loans_credit_cost_rate_5,0.005689165736460124,# products with full cost of credit (bin) = 5,0.0013228738651264657
+cnt__enc_paym_4_0,0.00558621667219476,"# products with payment status, month -4 = 0",0.0012989356230599558
+cnt__enc_paym_6_3,0.005576267331547966,"# products with payment status, month -6 = 3",0.0012966221515728214
+cnt__enc_loans_account_holder_type_4,0.005485326260270156,# products with account holder type = 4,0.0012754760693469108
+pay__s3_last6,0.005472892194962213,"# no data / closed (status 3) payments, last 6 months",0.0012725848369949091
+cnt__pre_till_pclose_15,0.005465637120143728,# products with days to planned close (bin) = 15,0.0012708978499547175
+last__enc_loans_credit_status,0.005379990383217703,Latest product: credit status,0.001250982833384415
+cnt__pre_since_opened_1,0.005275706012908668,# products with days since opening (bin) = 1,0.001226734099138745
+pay__s2_last12_share,0.0052500600635162166,"Share of late (status 2) payments, last 12 months",0.0012207707720413806
+cnt__pre_loans_credit_cost_rate_3,0.005214623572193255,# products with full cost of credit (bin) = 3,0.0012125308981451959
+cnt__pre_till_fclose_3,0.005145671635395682,# products with days to actual close (bin) = 3,0.0011964978417420761
+cnt__pre_maxover2limit_3,0.005079571969713906,# products with max overdue / limit (bin) = 3,0.001181128009982099
+cnt__pre_since_confirmed_13,0.0048362637494861645,# products with days since info confirmed (bin) = 13,0.0011245527403169928
+cnt__pre_pterm_13,0.004827778282477091,# products with planned term (bin) = 13,0.001122579656202435
+pay__s1_last6,0.0047434962731519835,"# late (status 1) payments, last 6 months",0.0011029819730620062
+cnt__enc_paym_1_0,0.0046668439183380865,"# products with payment status, month -1 = 0",0.0010851583761444731
+cnt__pre_util_14,0.004550053437303901,# products with utilisation (bin) = 14,0.0010580016571785384
+cnt__pre_till_pclose_6,0.0045413203209713655,# products with days to planned close (bin) = 6,0.0010559709883788265
+cnt__pclose_flag_0,0.004417118605543023,# products with planned close undefined = 0,0.001027090971350836
+cnt__fclose_flag_1,0.0041464810362019395,# products with actual close undefined = 1,0.0009641609418900603
+cnt__pre_since_opened_11,0.004127796034618919,# products with days since opening (bin) = 11,0.000959816209918971
+cnt__pre_pterm_1,0.003960494039536737,# products with planned term (bin) = 1,0.0009209142958018682
+cnt__pre_till_fclose_10,0.0032494776031878566,# products with days to actual close (bin) = 10,0.0007555851236715212
+pay__s1_last3,0.0025955685437988574,"# late (status 1) payments, last 3 months",0.0006035348504141672
+cnt__pre_till_fclose_13,0.0025177738882940174,# products with days to actual close (bin) = 13,0.0005854456399075485
+cnt__pre_since_confirmed_1,0.0017429683507202522,# products with days since info confirmed (bin) = 1,0.0004052839002621597

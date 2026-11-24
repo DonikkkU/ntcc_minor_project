@@ -1,0 +1,30 @@
+{
+  "model": "LightGBM baseline (count features, original params)",
+  "n_features": 419,
+  "best_iteration": 599,
+  "train_time_s": 58.6,
+  "valid": {
+    "n": 500000,
+    "default_rate": 0.03543,
+    "mean_pd": 0.3812090890076896,
+    "auc": 0.7494319021843141,
+    "gini": 0.4988638043686282,
+    "ks": 0.3683858713426407,
+    "pr_auc": 0.09997958604275048,
+    "brier": 0.18396782677783435,
+    "logloss": 0.5425500980156828
+  },
+  "oot": {
+    "n": 500000,
+    "default_rate": 0.032814,
+    "mean_pd": 0.384066172542581,
+    "auc": 0.7356218684166267,
+    "gini": 0.4712437368332534,
+    "ks": 0.3485233633004382,
+    "pr_auc": 0.08813041908316983,
+    "brier": 0.1869890718649655,
+    "logloss": 0.5496812308043014
+  },
+  "random_split_auc": 0.758583209208098,
+  "random_split_best_iteration": 765
+}

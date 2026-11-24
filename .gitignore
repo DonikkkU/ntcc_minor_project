@@ -1,0 +1,36 @@
+/data
+
+# Игнорировать файлы с расширениями  .pq
+*.pq
+# Игнорировать директории
+__pycache__/
+.idea/
+.ipynb_checkpoints/
+data/
+
+# large or regenerable outputs of the PD pipeline
+artifacts/features/
+artifacts/*.log
+artifacts/streamlit.*
+artifacts/models/pred_*.npy
+artifacts/models/*.npy
+artifacts/results/shap_values_sample.npy
+# not part of this coursework repository
+stata/
+reportcheck/
+ntcc_regulations/
+ML_Diploma/
+catboost_info/
+
+# report: keep only the final version and the generator scripts
+report/reportcheck_runs/
+report/NTCC_PD_Report.*
+report/NTCC_report_v*.docx
+report/NTCC_report_v*.pdf
+~$*
+
+report/RUN.md
+
+# files written by the original baseline notebooks
+notebooks/*.pkl
+notebooks/*.csv
