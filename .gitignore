@@ -22,7 +22,7 @@ ntcc_regulations/
 ML_Diploma/
 catboost_info/
 
-# report: keep only the final version and the generator scripts
+# report: keep only the final version
 report/reportcheck_runs/
 report/NTCC_PD_Report.*
 report/NTCC_report_v*.docx

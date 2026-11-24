@@ -50,7 +50,7 @@ pd_scoring/      shared code used by the research notebook and the app: feature 
                  metrics, risk formulas (master scale, Vasicek stress, IRB capital)
 app/             Streamlit application (applicant scoring, batch scoring, stress lab, model card)
 artifacts/       trained models, feature list, app files, result tables (results/) and figures (figures/)
-report/          the final report and the scripts that generated its first draft
+report/          the final report (DOCX and PDF)
 ```
 
 ## How to run

@@ -9,7 +9,6 @@ shap
 matplotlib
 streamlit
 plotly
-python-docx
 joblib
 jupyter
 seaborn
